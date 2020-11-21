@@ -1,0 +1,99 @@
+/* For content inside the box - the information provided by upto date by MSIT */
+.content {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.post-holder {
+  margin-bottom: 30px;
+}
+.post-block {
+  margin-bottom: 30px;
+}
+/* for border forming around the content provided by author */
+.author-block {
+  margin-bottom: 40px;
+  padding: 30px;
+  border-radius: 10px;
+  border: 3px solid #b0c6d1;
+  background-color: #fafbfb;
+}
+.author-content {
+}
+.author-header {
+  margin-bottom: 2px;
+  border-bottom: 1px solid #b0c6d1;
+  padding-bottom: 35px;
+}
+.author-title {
+  font-size: 22px;
+  padding-right: 8px;
+  margin-bottom: 0px;
+  padding-top: 15px;
+}
+
+table,
+td {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.p {
+  font-size: medium;
+}
+
+/* CSS for the sample questions page */
+/* for list items in sample_test_qs */
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.tab {
+  padding-left: 2px;
+}
+
+ol.a {
+  list-style-position: inside;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+.span {
+  font-size: medium;
+}
+
+.med-font {
+  font-size: medium;
+}
+
+.box2 {
+  border: 1px;
+  border-radius: 5px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 300px;
+  height: 100px;
+  
+}
+.center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 90%;
+}
+.preview {
+  font-weight: 400;
+  /* color: #336699; */
+  color: darkblue;
+  text-shadow: 2px 1px 0 #c1c1c1;
+  text-align: center;
+  /* font-size: 1em; */
+}

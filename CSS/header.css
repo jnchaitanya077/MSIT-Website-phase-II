@@ -1,0 +1,50 @@
+nav {
+  background-color: #001340;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+/* If the screen size is 1000px wide or more, display elements by hover */
+@media only screen and (min-width: 1000px) {
+  .nav-item:hover .dropdown-menu {
+    display: block;
+    color: "white";
+
+  }
+
+  nav {
+    height: 80px;
+  }
+
+  .navPadding {
+    padding-left: 10px;
+    padding-right: 10px;
+
+  }
+
+  .navbar {
+    padding-left: 10%;
+    padding-right: 10%;
+
+  }
+}
+
+
+
+/*color changes to yellow when hover on each dropdown*/
+nav li:hover {
+  background-color: #ffc107;
+  color: "white";
+
+}
+
+nav a {
+  color: #c1c4c6;
+  font-size: 16px;
+}
+
+.dropdown-menu a:hover {
+  background-color: #007bff;
+
+}

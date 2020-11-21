@@ -1,0 +1,141 @@
+/* for all paragraph text */
+.para {
+  text-align: justify;
+  line-height: 1.7;
+}
+
+/* faculty cards */
+.main {
+  text-align: center;
+}
+
+.rounded-circle {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-deck {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* main body alignment for all pages */
+.main-body {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-right: 0%;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+}
+
+.card-inner {
+  background-color: whitesmoke;
+}
+
+.media {
+  margin: 2%;
+  padding-top: 4%;
+}
+
+/* card shadows */
+
+.box {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+
+  border-radius: 5px;
+}
+
+.year {
+  /* color: #ce0058; */
+  color: #0a397a;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-top: 5px;
+}
+
+/* publications paragraph */
+.pub-text {
+  margin-top: 1%;
+  text-align: justify;
+  padding-bottom: 5px;
+  /* margin-right: 8%; */
+}
+
+/* Dean page CSS */
+
+span {
+  font-size: small;
+}
+
+hr {
+  margin-top: 0px;
+}
+
+.Right-title {
+  clear: right;
+  text-align: right;
+}
+
+.Left-title {
+  text-align: left;
+}
+
+/* sub title left */
+.sub-title {
+  font-weight: 600;
+  font-style: italic;
+  margin: 2%;
+}
+
+/* sub title right */
+.right {
+  text-align: right;
+}
+
+.sub-para {
+  margin: 0px;
+  line-height: 1.7;
+}
+
+.img-size {
+  height: 180px!important;
+  width: 220px !important;
+}
+.main-body-adv {
+  /* TRBL */
+
+  margin: 5% 10% 5% 10%;
+  padding-right: 0%;
+}
+
+@media only screen and (min-width: 800px) {
+  .left-spacing {
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .card-body {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+/* for mobile phone and tablets screens*/
+@media only screen and (max-width: 1000px) {
+  .Head-img,
+  .sub-title,
+  .Right-title,
+  .Left-title {
+    text-align: center;
+  }
+  .Head-img {
+    margin-bottom: 5%;
+  }
+}

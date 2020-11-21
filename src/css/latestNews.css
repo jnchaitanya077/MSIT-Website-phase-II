@@ -1,0 +1,77 @@
+.about {
+  padding-top: 7%;
+}
+
+.about-paragraph {
+  text-align: left;
+  line-height: 2rem;
+}
+
+/* news badge */
+.badge {
+  margin-left: 3%;
+}
+
+.newsLayout {
+  padding: 5% 8% 5% 10%;
+
+  background-color: whitesmoke;
+}
+
+/* latest news section */
+.news {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+  /* padding: 30px 0px 5% 5%; */
+  padding-top: 30px;
+  /* height: 350px; */
+  padding-left: 5%;
+  padding-bottom: 5%;
+  margin: 10% 0% 4% 3%;
+}
+
+.news-title {
+  /* margin-top: 5%; */
+  display: inline;
+  padding-left: 5%;
+}
+
+/* .latestNews-icon-two {
+  transform: rotate(-30deg);
+  color: red;
+} */
+
+.latestNews-icon-one {
+  color: orange;
+}
+
+/* Home page Title  */
+.title {
+  color: #0a397a;
+}
+
+/* mobile css */
+@media only screen and (max-width: 1000px) {
+  .news {
+    margin-top: 0%;
+    margin-left: 0px;
+  }
+  .newsLayout {
+    padding: 10% 2% 0% 3%;
+
+    background-color: whitesmoke;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .news {
+    margin-top: 9%;
+    margin-left: 3%;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+  .newsLayout {
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+}

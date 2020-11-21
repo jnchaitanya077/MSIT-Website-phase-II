@@ -1,0 +1,65 @@
+footer {
+    color: white;
+    text-align: center;
+    background-color: #06131a;
+    padding-top: 3%;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+/* Quick links css  */
+li a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+li a {
+    color: #697176;
+}
+
+li {
+    margin: 2%
+}
+
+/* Footer images */
+.footer-image {
+    margin-bottom: 5%;
+
+}
+
+.quick-links {
+    list-style-type: none;
+
+}
+
+.bottom-footer {
+    background-color: #030c10;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 1%;
+    color: #697176;
+    font-weight: 580;
+
+}
+
+/* Social media icons */
+.social-media-icons {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.icons {
+    margin: 1%;
+    text-decoration: none;
+    color: #697176;
+
+}
+
+.icons:hover {
+    color: lightblue;
+}
+
+.level-three-headings {
+    color: #697176;
+    font-weight: 600;
+}

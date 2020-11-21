@@ -1,0 +1,39 @@
+/* For page header- image with text */
+.page-header { }
+.page-caption { color: #fff; }
+.half-half { background: #ce0058; overflow: hidden; position: relative; }
+.half-half__image.pageheader-loaded { opacity: 1; -ms-transform: translateY(0); transform: translateY(0); }
+.half-half__inner { max-width: 70%; width: 70%; padding-top: 78px; padding-bottom: 8px; position: relative; z-index: 2; }
+.page-title { font-size: 35px; line-height: 1; color: #fff; margin-bottom: 10px; text-transform: capitalize; padding-left:10px;}
+.half-half__image { background: #fff no-repeat top; background-size: 100% auto; height: 100%; position: absolute; right: 0; top: 0; width: 100%; opacity: 0; transition: all .5s cubic-bezier(.7, .01, .3, 1); -ms-transform: translateY(2rem); transform: translateY(2rem); }
+
+/* For content inside the box - the information provided by upto date by MSIT */
+.content { padding-top: 80px; padding-bottom: 80px; }
+.post-holder { margin-bottom: 30px; }
+.post-block { margin-bottom: 30px; }
+/* for border forming around the content provided by author */
+.author-block { margin-bottom: 50px; padding: 30px; border-radius: 10px; border: 3px solid #b0c6d1; background-color: #fafbfb; }
+.author-content { }
+.author-header { margin-bottom: 2px; border-bottom: 1px solid #b0c6d1; padding-bottom: 35px; }
+.author-title { font-size: 22px; padding-right: 8px; margin-bottom: 0px; padding-top: 15px; }
+
+table,td {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+  }
+
+.p {
+  font-size: medium;
+}
+
+/* CSS for the sample questions page */
+/* for list items in sample_test_qs */
+ul, li { margin: 0; padding: 0;  }
+
+.tab {
+  padding-left: 2px;
+}
+
+ol.a {
+  list-style-position: inside;
+}

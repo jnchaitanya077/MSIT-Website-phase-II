@@ -1,0 +1,47 @@
+.placement {
+  /* background-image: url(https://www.pes.edu/wp-content/uploads/2019/09/slider2-2018-111.jpg); */
+  background-image: url("../images/placements/placement_UPDATED.jpg");
+  background-size: cover;
+  background-position: center right;
+  height: 500px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.placement-heading {
+  margin-top: 8%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: left;
+  margin-bottom: auto;
+  color: white;
+}
+
+.horizontal {
+  border: 3px solid white;
+  border-bottom: 0;
+  border-radius: 5px;
+  text-align: left;
+  display: block;
+  width: 10%;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .image {
+    display: hidden;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  /* spacing for logo */
+  /* .placement {
+    opacity: 0.3;
+    z-index: -1;
+  } */
+  .placement {
+    background-image: url("../images/placements/placement-md.jpg");
+    margin-top: 5%;
+  }
+}

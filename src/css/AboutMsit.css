@@ -1,0 +1,112 @@
+/* li{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#para{
+    font-family: 'Times New Roman', Times, serif;
+} */
+
+/* button :hover{
+    background-color: yellow;
+    color: black;
+} */
+ul {
+  list-style-position: initial;
+}
+.Collapsible__trigger {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  padding-left: 0px;
+}
+.Collapsible__contentInner h5 {
+  color: rgb(82, 11, 11);
+}
+.Collapsible__contentInner {
+  padding: 20px;
+}
+
+/* -----------------------------------------------Courses and Structure------------------------------------------------ */
+.link {
+  text-decoration: none;
+}
+.Courses-overview {
+  padding-top: 0px !important;
+}
+.collapsible {
+  background-color: rgb(194, 194, 194);
+  /* background-color:rgb(51, 113, 155); */
+  /* background-color: rgb(134, 160, 177); */
+  /* color: white; */
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  /* padding: 18px; */
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  height: 50px;
+}
+
+.active,
+.collapsible:hover {
+  /* background-color: #555; */
+  color: white;
+  background-color: rgb(18, 52, 75);
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+/* msit-program and charter css */
+.content-overview {
+  height: auto;
+  padding: 40px;
+  margin-top: 5%;
+}
+
+#charter {
+  margin-top: 5%;
+}
+
+#MsitProgram {
+  margin-top: 1%;
+}
+
+.shadows {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.shadows-courses {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media only screen and (max-width: 600px) {
+  .shadows {
+    box-shadow: none;
+  }
+  #charter {
+    padding-bottom: 0px;
+    margin-top: 0px;
+  }
+  #MsitProgram {
+    padding-top: 0px;
+  }
+
+  /* --------Course and Structure------ */
+}

@@ -1,0 +1,126 @@
+.cat {
+  position: absolute;
+  left: 25px;
+  top: 10px;
+  font-weight: 700;
+  color: #fff;
+  font-size: 13px;
+  line-height: 18px;
+  background-color: #ffc600;
+  box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.2);
+  padding: 5px 10px;
+}
+
+.col-md-5 {
+  padding-left: 15px;
+}
+.main-body {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-right: 0%;
+}
+/* for mobile phone and tablets screens*/
+@media only screen and (max-width: 1000px) {
+  .Head-img,
+  .sub-title,
+  .Right-title,
+  .Left-title {
+    text-align: center;
+  }
+  .Head-img {
+    margin-bottom: 50%;
+  }
+}
+
+.title1 {
+  font-family: sans-serif;
+  margin-top: 15%;
+}
+
+.title2 {
+  font-size: 20px;
+}
+.img-size {
+  height: 35%;
+  width: 35%;
+}
+
+.img-size2 {
+  height: 180px;
+  width: 230px;
+}
+
+.Left-title {
+  text-align: left;
+}
+
+/* These two center classes for image centering */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* this class is for the page content to be in a bordered box. */
+.author-block {
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 20px;
+  border: 3px solid #b0c6d1;
+  background-color: #fafbfb;
+}
+
+.main-body-adv {
+  /* TRBL- For main body inside the bordered box. */
+
+  margin: 5% 10% 5% 10%;
+  padding-right: 2%;
+}
+
+/* for mobile phone and tablets screens*/
+/* @media only screen and (min-width: 1000px) {
+  .title1 {
+    padding-top: 2%;
+  }
+} */
+
+@media only screen and (max-width: 1000px) {
+  .Head-img,
+  .sub-title,
+  .Right-title,
+  .Left-title {
+    text-align: center;
+  }
+  .Head-img {
+    margin-bottom: 5%;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .left-spacing {
+    margin-left: 20px;
+  }
+}
+
+.Left-title {
+  text-align: left;
+}
+
+/* sub title left */
+.sub-title {
+  font-weight: 600;
+  font-style: italic;
+  margin: 2%;
+}
+
+.sub-para {
+  margin: 0px;
+  line-height: 1.7;
+}

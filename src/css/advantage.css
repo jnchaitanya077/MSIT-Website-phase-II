@@ -1,0 +1,12 @@
+span {
+  font-weight: large;
+}
+
+.short-text {
+  font-size: large;
+}
+
+.readMoreText {
+  color: red !important;
+  font-weight: bold;
+}
