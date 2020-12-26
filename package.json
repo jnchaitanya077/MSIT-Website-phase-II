@@ -26,7 +26,8 @@
     "react-scripts": "3.4.1",
     "react-show-more": "^2.0.0",
     "react-show-more-text": "^1.4.2",
-    "reactstrap": "^8.4.1"
+    "reactstrap": "^8.4.1",
+    "uniqid": "^5.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
